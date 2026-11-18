@@ -24,7 +24,7 @@ export const CATEGORIES = [
     description:
       'High-capacity modular supermarket gondola racks, wall racks, heavy-duty storage, and shopping systems built with high-grade steel and finished with UFI signature 9-step powder coating.',
     featuredProduct: 'double-sided-gondola-rack',
-    image: '/images/store/double-sided-gondola-rack.png',
+    image: '/Universal.github.io/images/store/double-sided-gondola-rack.png',
   },
   {
     slug: 'school',
@@ -34,7 +34,7 @@ export const CATEGORIES = [
     description:
       'Ergonomic, heavy-gauge steel classroom double benches, student desks, and multi-tier institutional storage lockers engineered to withstand decades of rigorous daily school use.',
     featuredProduct: 'two-seater-classroom-bench',
-    image: '/images/school/two-seater-classroom-bench.png',
+    image: '/Universal.github.io/images/school/two-seater-classroom-bench.png',
   },
   {
     slug: 'hospital',
@@ -44,7 +44,7 @@ export const CATEGORIES = [
     description:
       'Clinical-grade adjustable patient and delivery beds, stainless medicine trolleys, and hygienic waiting benches treated with anti-corrosion chemical passivation for medical environments.',
     featuredProduct: 'obstetric-delivery-bed',
-    image: '/images/hospital/obstetric-delivery-bed.png',
+    image: '/Universal.github.io/images/hospital/obstetric-delivery-bed.png',
   },
   {
     slug: 'office',
@@ -54,7 +54,7 @@ export const CATEGORIES = [
     description:
       'Architectural executive desks, breathable ergonomic mesh chairs, and reinforced steel filing cabinets designed for daily corporate performance and aesthetic distinction.',
     featuredProduct: 'executive-office-desk',
-    image: '/images/office/executive-office-desk.png',
+    image: '/Universal.github.io/images/office/executive-office-desk.png',
   },
   {
     slug: 'home',
@@ -64,7 +64,7 @@ export const CATEGORIES = [
     description:
       'Industrial metal sofas, dining tables, and minimalist center tables bringing the same precision engineering and 9-step powder coating trusted by hospitals into modern residential spaces.',
     featuredProduct: 'metal-sofa-set',
-    image: '/images/home/metal-sofa-set.png',
+    image: '/Universal.github.io/images/home/metal-sofa-set.png',
   },
 ];
 
@@ -91,7 +91,7 @@ export const products: Product[] = [
       finishes: ['Signal Blue / White (Standard)', 'Anthracite Dark Graphite', 'Custom RAL on Contract Order'],
       sizes: ['900mm Width x 1500mm Height', '1200mm Width x 1800mm Height', '1200mm Width x 2100mm Height'],
     },
-    images: ['/images/store/double-sided-gondola-rack.png'],
+    images: ['/Universal.github.io/images/store/double-sided-gondola-rack.png'],
   },
   {
     slug: 'supermarket-trolley',
@@ -108,7 +108,7 @@ export const products: Product[] = [
       'Wheel System': '4x heavy-duty polyurethane ball-bearing casters',
       'Handle': 'Ergonomic blue composite handle bar with logo slot',
     },
-    images: ['/images/store/supermarket-trolley.png'],
+    images: ['/Universal.github.io/images/store/supermarket-trolley.png'],
   },
   {
     slug: 'two-door-storage-cabinet',
@@ -125,7 +125,7 @@ export const products: Product[] = [
       'Construction': 'Cold-rolled mild steel sheet 0.8mm - 1.2mm',
       'Corrosion Protection': 'Phosphated and electrostatic powder coated',
     },
-    images: ['/images/store/two-door-storage-cabinet.png'],
+    images: ['/Universal.github.io/images/store/two-door-storage-cabinet.png'],
   },
 
   // ----------------- SCHOOL & INSTITUTIONAL -----------------
@@ -149,7 +149,7 @@ export const products: Product[] = [
       finishes: ['Royal Blue Frame / Natural Teak Top', 'Black Frame / Walnut Top'],
       sizes: ['Primary School (Grades 1-5)', 'Secondary / College (Grades 6+)'],
     },
-    images: ['/images/school/two-seater-classroom-bench.png'],
+    images: ['/Universal.github.io/images/school/two-seater-classroom-bench.png'],
   },
   {
     slug: 'student-desk-chair-set',
@@ -165,7 +165,7 @@ export const products: Product[] = [
       'Steel Frame': '25mm x 25mm box-section steel with anti-scratch coating',
       'Top Surface': 'Laminated wood core with PVC edge banding',
     },
-    images: ['/images/school/student-desk-chair-set.png'],
+    images: ['/Universal.github.io/images/school/student-desk-chair-set.png'],
   },
   {
     slug: 'steel-storage-locker',
@@ -182,7 +182,7 @@ export const products: Product[] = [
       'Sheet Gauge': 'Prime cold-rolled steel sheet, 0.8mm gauge',
       'Finish': 'Industrial metallic silver / light grey powder coat',
     },
-    images: ['/images/school/steel-storage-locker.png'],
+    images: ['/Universal.github.io/images/school/steel-storage-locker.png'],
   },
 
   // ----------------- HOSPITAL & HEALTHCARE -----------------
@@ -206,7 +206,7 @@ export const products: Product[] = [
       finishes: ['Clinical White & Hospital Blue', 'Stainless Steel Trim'],
       tiers: ['Manual Crank Mechanism', 'Dual Mechanism with Trendelenburg Support'],
     },
-    images: ['/images/hospital/obstetric-delivery-bed.png'],
+    images: ['/Universal.github.io/images/hospital/obstetric-delivery-bed.png'],
   },
   {
     slug: 'medicine-trolley',
@@ -222,7 +222,7 @@ export const products: Product[] = [
       'Frame': 'Seamless tubular steel handle rails with mirror polish',
       'Wheels': '100mm silent swivel casters (2 with directional locks)',
     },
-    images: ['/images/hospital/medicine-trolley.png'],
+    images: ['/Universal.github.io/images/hospital/medicine-trolley.png'],
   },
   {
     slug: 'hospital-bench-4-seater',
@@ -239,7 +239,7 @@ export const products: Product[] = [
       'Arms & Legs': 'Die-cast steel with high-gloss chrome plating',
       'Upholstery': 'Easy-disinfect commercial blue vinyl with foam padding',
     },
-    images: ['/images/hospital/hospital-bench-4-seater.png'],
+    images: ['/Universal.github.io/images/hospital/hospital-bench-4-seater.png'],
   },
 
   // ----------------- OFFICE & WORKSPACE -----------------
@@ -262,7 +262,7 @@ export const products: Product[] = [
       sizes: ['1400mm Executive Compact', '1600mm Executive Standard', '1800mm Director Size'],
       finishes: ['Graphite Steel & Warm Walnut', 'Anthracite Steel & Natural Oak'],
     },
-    images: ['/images/office/executive-office-desk.png'],
+    images: ['/Universal.github.io/images/office/executive-office-desk.png'],
   },
   {
     slug: 'ergonomic-mesh-chair',
@@ -279,7 +279,7 @@ export const products: Product[] = [
       'Gas Lift': 'Class 4 heavy-duty pneumatic height cylinder',
       'Base': '350mm chrome-plated steel 5-star base with nylon castors',
     },
-    images: ['/images/office/ergonomic-mesh-chair.png'],
+    images: ['/Universal.github.io/images/office/ergonomic-mesh-chair.png'],
   },
   {
     slug: 'two-door-office-cabinet',
@@ -295,7 +295,7 @@ export const products: Product[] = [
       'Locking': 'Concealed hinge steel doors with recessed locking cylinder',
       'Finish': 'Dual-tone office grey and deep navy powder coat',
     },
-    images: ['/images/office/two-door-storage-cabinet.png'],
+    images: ['/Universal.github.io/images/office/two-door-storage-cabinet.png'],
   },
 
   // ----------------- HOME & LIVING -----------------
@@ -318,7 +318,7 @@ export const products: Product[] = [
       sizes: ['2-Seater Loveseat', '3-Seater Living Sofa', 'Complete 3+2+1 Suite'],
       finishes: ['Satin Navy Steel / Charcoal Cushions', 'Matte Black / Slate Grey Cushions'],
     },
-    images: ['/images/home/metal-sofa-set.png'],
+    images: ['/Universal.github.io/images/home/metal-sofa-set.png'],
   },
   {
     slug: 'metal-dining-table',
@@ -334,7 +334,7 @@ export const products: Product[] = [
       'Top': 'Solid engineered wood with waterproof edging',
       'Seating': 'Comfortably seats 6 adults',
     },
-    images: ['/images/home/metal-dining-table.png'],
+    images: ['/Universal.github.io/images/home/metal-dining-table.png'],
   },
   {
     slug: 'metal-coffee-table',
@@ -350,6 +350,6 @@ export const products: Product[] = [
       'Diameter': '800mm diameter round top with lower magazine ring',
       'Finish': 'Signature electric blue / graphite powder finish',
     },
-    images: ['/images/home/metal-coffee-table.png'],
+    images: ['/Universal.github.io/images/home/metal-coffee-table.png'],
   },
 ];

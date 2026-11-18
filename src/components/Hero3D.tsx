@@ -1,4 +1,4 @@
-﻿import React, { useRef, useState, useEffect, Suspense } from 'react';
+import React, { useRef, useState, useEffect, Suspense } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, Environment, ContactShadows } from '@react-three/drei';
 import Image from 'next/image';
@@ -46,7 +46,7 @@ export default function Hero3D() {
       {/* Cinematic Factory Background */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/backgrounds/hero-factory.jpg"
+          src="/Universal.github.io/images/backgrounds/hero-factory.jpg"
           alt="UFI Manufacturing Facility"
           fill
           className="object-cover"

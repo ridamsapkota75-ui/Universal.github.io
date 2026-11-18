@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -10,11 +10,11 @@ import Footer from '../src/components/Footer';
 import { CATEGORIES, products } from '../src/data/products';
 
 const categoryBackgrounds: Record<string, string> = {
-  store: '/images/backgrounds/supermarket-interior.jpg',
-  school: '/images/backgrounds/classroom-modern.jpg',
-  hospital: '/images/backgrounds/hospital-room.jpg',
-  office: '/images/backgrounds/modern-office.jpg',
-  home: '/images/backgrounds/modern-living.jpg',
+  store: '/Universal.github.io/images/backgrounds/supermarket-interior.jpg',
+  school: '/Universal.github.io/images/backgrounds/classroom-modern.jpg',
+  hospital: '/Universal.github.io/images/backgrounds/hospital-room.jpg',
+  office: '/Universal.github.io/images/backgrounds/modern-office.jpg',
+  home: '/Universal.github.io/images/backgrounds/modern-living.jpg',
 };
 
 export default function HomePage() {
@@ -102,7 +102,7 @@ export default function HomePage() {
                   {/* Category Environmental Photographic Background */}
                   <div className="absolute inset-0 z-0 pointer-events-none">
                     <Image
-                      src={categoryBackgrounds[cat.slug] || '/images/backgrounds/factory-interior.jpg'}
+                      src={categoryBackgrounds[cat.slug] || '/Universal.github.io/images/backgrounds/factory-interior.jpg'}
                       alt={cat.name}
                       fill
                       className="object-cover opacity-10 group-hover:opacity-15 transition-opacity duration-500"
@@ -184,15 +184,15 @@ export default function HomePage() {
           title="DISCOVER THE UFI DIFFERENCE"
           subtitle="OFFICIAL COMPANY FILM"
           description="Watch how Universal Furniture Industries engineers precision metal furniture from raw steel to finished product in our Chitwan manufacturing facility."
-          videoSrc="/videos/ufi-advertisement.mp4"
-          posterSrc="/videos/ufi-video-poster.jpg"
+          videoSrc="/Universal.github.io/videos/ufi-advertisement.mp4"
+          posterSrc="/Universal.github.io/videos/ufi-video-poster.jpg"
         />
 
         {/* 5. Interactive 9-Step Manufacturing Process */}
         <section className="py-20 relative overflow-hidden border-y border-electricBlue/20">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/images/backgrounds/metal-fabrication.jpg"
+              src="/Universal.github.io/images/backgrounds/metal-fabrication.jpg"
               alt="Metal fabrication process"
               fill
               className="object-cover opacity-20"
@@ -258,7 +258,7 @@ export default function HomePage() {
               <div className="lg:col-span-6">
                 <div className="relative h-80 sm:h-[420px] rounded-3xl overflow-hidden border border-electricBlue/30 shadow-2xl shadow-deepNavy/80 group">
                   <Image
-                    src="/images/backgrounds/factory-interior.jpg"
+                    src="/Universal.github.io/images/backgrounds/factory-interior.jpg"
                     alt="UFI Chitwan Metal Furniture Manufacturing Plant"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-700"

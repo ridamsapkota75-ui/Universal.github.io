@@ -23,7 +23,7 @@ export default function AboutPage() {
         <section className="relative py-16 sm:py-24 border-b border-electricBlue/20 overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/backgrounds/team-industrial.jpg"
+              src="/Universal.github.io/images/backgrounds/team-industrial.jpg"
               alt="Industrial manufacturing team"
               fill
               className="object-cover opacity-30"

@@ -9,8 +9,8 @@ interface Props {
 }
 
 export default function VideoShowcase({
-  videoSrc = '/videos/ufi-advertisement.mp4',
-  posterSrc = '/videos/ufi-video-poster.jpg',
+  videoSrc = '/Universal.github.io/videos/ufi-advertisement.mp4',
+  posterSrc = '/Universal.github.io/videos/ufi-video-poster.jpg',
   title = 'DISCOVER THE UFI DIFFERENCE',
   subtitle = 'OFFICIAL COMPANY FILM',
   description = 'Watch how Universal Furniture Industries engineers precision metal furniture from raw steel to finished product in our Chitwan manufacturing facility.',

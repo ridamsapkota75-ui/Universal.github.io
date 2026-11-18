@@ -16,7 +16,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center space-x-3">
               <div className="w-10 h-10 rounded-full overflow-hidden border border-electricBlue/40 bg-darkBlue flex items-center justify-center p-0.5">
                 <Image
-                  src="/images/logo/ufi-logo.png"
+                  src="/Universal.github.io/images/logo/ufi-logo.png"
                   alt="UFI Chitwan"
                   width={38}
                   height={38}

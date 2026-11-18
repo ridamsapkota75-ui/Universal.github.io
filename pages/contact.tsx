@@ -95,7 +95,7 @@ export default function ContactPage() {
         <section className="relative py-16 sm:py-20 border-b border-electricBlue/20 overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/backgrounds/modern-office.jpg"
+              src="/Universal.github.io/images/backgrounds/modern-office.jpg"
               alt="Modern workspace"
               fill
               className="object-cover opacity-20"

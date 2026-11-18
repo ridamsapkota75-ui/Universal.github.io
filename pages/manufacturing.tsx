@@ -24,7 +24,7 @@ export default function ManufacturingPage() {
         <section className="relative py-16 sm:py-24 border-b border-electricBlue/20 overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/images/backgrounds/factory-welding.jpg"
+              src="/Universal.github.io/images/backgrounds/factory-welding.jpg"
               alt="Metal welding and fabrication"
               fill
               className="object-cover opacity-25"
