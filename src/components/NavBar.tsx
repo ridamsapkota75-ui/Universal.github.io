@@ -75,7 +75,7 @@ export default function NavBar() {
           <Link href="/" className="flex items-center space-x-3 group">
             <div className="relative w-10 h-10 rounded-full overflow-hidden border border-electricBlue/40 bg-darkBlue shadow-md flex items-center justify-center p-0.5 group-hover:border-electricBlue transition">
               <Image
-                src="/Universal.github.io/images/logo/ufi-logo.png"
+                src="/images/logo/ufi-logo.png"
                 alt="Universal Furniture Industries"
                 width={38}
                 height={38}

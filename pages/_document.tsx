@@ -6,8 +6,8 @@ export default function Document() {
       <Head>
         <meta charSet="utf-8" />
         <meta name="theme-color" content="#07182F" />
-        <link rel="icon" href="/Universal.github.io/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/Universal.github.io/images/logo/ufi-logo.png" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/images/logo/ufi-logo.png" />
       </Head>
       <body>
         <Main />

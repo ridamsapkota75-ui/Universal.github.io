@@ -12,8 +12,8 @@ const projectSectors = [
     headline: 'High-Density Merchandising for Departmental Stores',
     description:
       'Engineered for maximum weight capacity and visual clarity. UFI gondola systems and shopping trolleys allow grocery chains, departmental marts, and retail stores to optimize floor layout and inventory flow.',
-    image: '/Universal.github.io/images/store/double-sided-gondola-rack.png',
-    bgImage: '/Universal.github.io/images/backgrounds/supermarket-interior.jpg',
+    image: '/images/store/double-sided-gondola-rack.png',
+    bgImage: '/images/backgrounds/supermarket-interior.jpg',
     link: '/products/store',
     highlights: ['100kg per tier load capacity', 'Modular aisle reconfiguration', 'Impact-resistant powder coating'],
   },
@@ -23,8 +23,8 @@ const projectSectors = [
     headline: 'Ergonomic Classrooms Built for Academic Longevity',
     description:
       'Campuses demand furniture that survives heavy daily student traffic without wobbling or surface degradation. Our welded steel benches and lockable student lockers deliver durability across generations of learners.',
-    image: '/Universal.github.io/images/school/two-seater-classroom-bench.png',
-    bgImage: '/Universal.github.io/images/backgrounds/classroom-modern.jpg',
+    image: '/images/school/two-seater-classroom-bench.png',
+    bgImage: '/images/backgrounds/classroom-modern.jpg',
     link: '/products/school',
     highlights: ['Posture-correct ergonomic wood curves', 'Integrated book and mesh racks', 'Heavy-gauge steel frames'],
   },
@@ -34,8 +34,8 @@ const projectSectors = [
     headline: 'Clinical Hygiene and Dependable Patient Support',
     description:
       'Healthcare settings demand absolute cleanliness and corrosion resistance. Our 9-step passivated obstetric beds and stainless medicine carts withstand chemical disinfectants and daily sanitization.',
-    image: '/Universal.github.io/images/hospital/obstetric-delivery-bed.png',
-    bgImage: '/Universal.github.io/images/backgrounds/hospital-room.jpg',
+    image: '/images/hospital/obstetric-delivery-bed.png',
+    bgImage: '/images/backgrounds/hospital-room.jpg',
     link: '/products/hospital',
     highlights: ['Chemical passivation barrier', 'Smooth caster mobility with locks', 'Multi-section adjustments'],
   },
@@ -45,8 +45,8 @@ const projectSectors = [
     headline: 'Functional Executive Desks and Archival Security',
     description:
       'Balancing professional elegance with industrial stability. UFI provides corporate headquarters, banks, and legal offices with executive desks, ergonomic mesh task seating, and lockable storage cabinets.',
-    image: '/Universal.github.io/images/office/executive-office-desk.png',
-    bgImage: '/Universal.github.io/images/backgrounds/modern-office.jpg',
+    image: '/images/office/executive-office-desk.png',
+    bgImage: '/images/backgrounds/modern-office.jpg',
     link: '/products/office',
     highlights: ['Scratch-resistant laminate work surfaces', 'Perforated acoustic modesty panels', 'Three-point gang locks'],
   },
@@ -56,8 +56,8 @@ const projectSectors = [
     headline: 'Durable Metal Craft for the Modern Home',
     description:
       'Bringing the durability of commercial metal manufacturing into living spaces. Termite-proof, humidity-proof, and designed with sleek industrial geometry that outlasts conventional wood furniture.',
-    image: '/Universal.github.io/images/home/metal-sofa-set.png',
-    bgImage: '/Universal.github.io/images/backgrounds/modern-living.jpg',
+    image: '/images/home/metal-sofa-set.png',
+    bgImage: '/images/backgrounds/modern-living.jpg',
     link: '/products/home',
     highlights: ['100% termite and moisture-proof', 'Electrostatic satin blue/graphite finish', 'Easy-clean cushion integration'],
   },
@@ -81,7 +81,7 @@ export default function ProjectsPage() {
         <section className="relative py-16 sm:py-24 border-b border-electricBlue/20 overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/Universal.github.io/images/backgrounds/factory-interior.jpg"
+              src="/images/backgrounds/factory-interior.jpg"
               alt="Industrial furniture manufacturing"
               fill
               className="object-cover opacity-25"
